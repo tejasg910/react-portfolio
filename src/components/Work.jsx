@@ -18,7 +18,7 @@ const Work = () => {
                                         <p>
                                             {i.description}
                                         </p>
-                                        <a target={"_blank"} href={i.url}>View Demo</a>
+                                        <a target={"blank"} href={i.url}>View Demo</a>
                                     </aside>
                                 </div>
                             ))

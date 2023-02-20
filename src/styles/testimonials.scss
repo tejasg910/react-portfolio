@@ -1,7 +1,7 @@
 #testimonials{
     width: 100%;
    
-    padding: $p;
+    
     background-color: $color4;
     color: $color5;
     >h2{
@@ -15,17 +15,17 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        width: 80%;
+        width: 100%;
         margin: auto;
-        height: 40rem;
-        padding: 8rem;
+        min-height: 40rem;
+        padding: 8rem 0.5rem;
         background-color: $color1;
         gap: 20px;
 
         >article{
             position: relative;
-            height: 100%;
-            width: 30%;
+                    height: 250px;
+            width: 250px;
             background-color: $color4;
             display: flex;
             align-items: center;

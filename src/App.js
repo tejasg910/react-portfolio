@@ -5,6 +5,8 @@ import Work from "./components/Work";
 import Services from "./components/Services";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
+import { Toaster } from "react-hot-toast";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Services />
       <Testimonials />
       <Contact />
+      <Toaster />
+      <Footer />
     </div>
   );
 }

@@ -1,41 +1,42 @@
 {
   "projects": [
     {
-      "date": "07/10/2022",
-      "title": "TECHY STAR",
-      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-      "url": "https://reactone-nine.vercel.app",
-      "imgSrc": "https://cdn.pixabay.com/photo/2018/06/07/16/49/virtual-3460451_960_720.jpg"
+      "date": "07/12/2022",
+      "title": "Streaming",
+      "description": "This app is for the students who want to learn the latest techologies. Here User have to buy the subscription while admin can manage the courses.",
+      "url": "https://streaming-tejasg910.vercel.app/",
+      "imgSrc": "https://ik.imagekit.io/hsxxzalwq/streaming.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676905473015"
     },
 
     {
-      "date": "11/10/2022",
-      "title": "VIDEO HUB",
-      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-      "url": "https://react-video-app-eight.vercel.app",
-      "imgSrc": "https://cdn.pixabay.com/photo/2016/11/21/12/51/mobile-phone-1845233__340.jpg"
+      "date": "11/02/2023",
+      "title": "MentorKart",
+      "description": "This is clone of the mentorkart website. Build using pure HTML, CSS and Javascript.",
+      "url": "https://tejasg910.github.io/mentorkat-project-1/",
+      "imgSrc": "https://ik.imagekit.io/hsxxzalwq/mentorkart.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676905497939"
     },
-    {
-      "date": "15/10/2022",
-      "title": "XCrypto",
-      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-      "url": "https://react-crypto-app-pi.vercel.app",
-      "imgSrc": "https://cdn.pixabay.com/photo/2017/12/12/12/44/bitcoin-3014614_960_720.jpg"
-    },
+   
 
     {
       "date": "17/10/2022",
-      "title": "REACT CART",
-      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-      "url": "https://react-cart-eosin.vercel.app",
-      "imgSrc": "https://cdn.pixabay.com/photo/2019/12/14/08/36/shopping-4694470_960_720.jpg"
+      "title": "Movie Website",
+      "description": "The app idea is inspired from the Netflix and uses movie api to give information about the search result.",
+      "url": "https://chimerical-duckanoo-84d505.netlify.app/index.html",
+      "imgSrc": "https://ik.imagekit.io/hsxxzalwq/netflix.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676905480186"
     },
     {
-      "date": "20/10/2022",
-      "title": "PORTFOLIO",
-      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+      "date": "07/08/2022",
+      "title": "Uinversity Website",
+      "description": "This website is build using pure HTML, CSS and JavaScript. Showing static information about the university.",
+      "url": "https://universitywebsitejoin.netlify.app/",
+      "imgSrc": "https://ik.imagekit.io/hsxxzalwq/university.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676905479912"
+    },
+     {
+      "date": "15/02/2023",
+      "title": "Portfolio",
+      "description": "This page gives basic information about myself and build using React.Js and SASS.",
       "url": "/",
-      "imgSrc": "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_960_720.jpg"
+      "imgSrc": "https://ik.imagekit.io/hsxxzalwq/portfolio.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676905496623"
     }
   ]
 }

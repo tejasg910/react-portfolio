@@ -8,6 +8,8 @@
 @import "services.scss";
 @import "testimonials.scss";
 @import "contact.scss";
+@import "footer.scss";
+@import "mediaquery.scss";
 *{
     margin: 0;
     padding: 0;
@@ -26,6 +28,7 @@ body{
 }
 
 .disableBtn{
-    background-color: rgb(237, 237, 237);
-    cursor: not-allowed;
+    color: $color6 !important;
+    background-color: rgb(237, 237, 237) !important;
+    cursor: not-allowed !important;
 }
