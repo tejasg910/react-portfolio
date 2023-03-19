@@ -223,6 +223,12 @@
     .navBtn {
         display: block;
     }
+
+    button{
+        display: inline-block!important;
+    }
+
+    
 }
 
 @media screen and (max-width: 600px) {

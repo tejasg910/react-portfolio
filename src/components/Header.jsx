@@ -1,14 +1,17 @@
 import React from 'react'
-
-const Header = () => {
+import { AiOutlineMenu } from "react-icons/ai"
+const Header = ({ setMenuOpen, menuOpen }) => {
     return (
-        <nav>
-            <NavContent />
-        </nav>
+        <>
+            <nav>
+                <NavContent />
+            </nav>
+            <button className='navBtn' onClick={() => { setMenuOpen(!menuOpen) }}><AiOutlineMenu /></button>
+        </>
     )
 }
 
-const NavContent = () => {
+export const NavContent = () => {
     return (<>
         <h2>Tejas Giri</h2>
         <div>
@@ -23,5 +26,11 @@ const NavContent = () => {
         </a>
     </>)
 }
-
+export const HeaderPhone = ({ menuOpen }) => {
+    return (
+        <div className={`navPhone ${menuOpen ? "navPhoneComes" : ""}`}>
+            <NavContent />
+        </div>
+    )
+}
 export default Header
