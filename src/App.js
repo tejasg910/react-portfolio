@@ -7,11 +7,11 @@ import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import { Toaster } from "react-hot-toast";
 import Footer from "./components/Footer";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
-  console.log(menuOpen);
+
   return (
     <div className="App">
       <HeaderPhone menuOpen={menuOpen} />
